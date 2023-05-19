@@ -9,6 +9,77 @@
     <title>SignUp | Form</title>
 </head>
 <body>
-    
+    <div class="container">
+
+        <div class="image-container">
+            <div class="image">
+                <div class="signup-text">
+                    Sign Up
+                </div>
+                <div class="illustration-container">
+                    <img src="img/image3.png" alt="ilustration" class="illustration">
+                </div>
+                <div class="author-text">
+                    www.freepik.com
+                </div>
+            </div>
+        </div>
+
+        <div class="form-container">
+            <div class="top">
+               <p class="textPara">
+                This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up now to get started.
+               </p>
+               <p class="textPara2">
+                You know you want to.
+               </p>
+            </div>
+
+            <form id="form" action="">
+                <div class="form-input-container">
+                    <div class="input-container">
+                        <div class="input-flex">
+                            <label for="firstName" class="label">FIRST NAME</label>
+                            <input type="text" id="firstName" name="firstName" required>
+                        </div>
+                        <div class="input-flex">
+                            <label for="lastName" class="label">LAST NAME</label>
+                            <input type="text" id="lastName" name="lastName" required>
+                        </div>
+                     </div>
+        
+                     <div class="input-container">
+                        <div class="input-flex">
+                            <label for="email" class="label">EMAIL</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="input-flex">
+                            <label for="phoneNumber" class="label">PHONE NUMBER</label>
+                            <input type="tel" id="phoneNumber" name="phoneNumber" required>
+                        </div>
+                     </div>
+        
+                     <div class="input-container">
+                        <div class="input-flex">
+                            <label for="password" class="label">PASSWORD</label>
+                            <input type="password" id="password" name="password" required>
+                        </div>
+                        <div class="input-flex">
+                            <label for="password" class="label">CONFIRM PASSWORD</label>
+                            <input type="password" id="password" name="password" required>
+                        </div>
+                     </div>
+                </div>
+            </form>
+
+            <div class="bottom">
+                <button type="submit" form="form" class="btn">Create account</button>
+                <p class="acc-text">Already have an account?  <span class="login"> Log In</span></p>
+            </div>
+
+        </div>
+
+    </div>
 </body>
+
 </html>
