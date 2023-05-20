@@ -20,7 +20,7 @@ firstNameInput.addEventListener('blur', ()=>{
     let firstName = firstNameInput.value;
     let containsNumbers = /\d/.test(firstName);
     if(containsNumbers){
-        firstNameInput.setCustomValidity('Enter a valid name');
+        firstNameInput.setCustomValidity('Enter a valid name. Without characters("123...", "+-*/...")');
     }
     else{
         firstNameInput.setCustomValidity('');
@@ -38,7 +38,7 @@ lastNameInput.addEventListener('blur', ()=>{
         let lastName = lastNameInput.value;
         let containsNumbers = /\d/.test(lastName);
         if(containsNumbers){
-            lastNameInput.setCustomValidity('Enter a valid last name');
+            lastNameInput.setCustomValidity('Enter a valid last name. Without characters("123...", "+-*/...")');
         }
         else{
             lastNameInput.setCustomValidity('');
