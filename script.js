@@ -17,16 +17,6 @@ passwordMessage2.classList.remove('password2-input');
 firstNameSpan.classList.remove('first-name-input')
 lastNameSpan.classList.remove('last-name-input')
 
-inputs.forEach(function(input){
-    input.addEventListener('blur', ()=>{
-        if(input.validity.valid){
-            input.classList.add('input-valid')
-        }
-        else{
-            input.classList.remove('input-valid')
-        }
-    })
-})
 
 firstNameInput.addEventListener('input', ()=>{
     let firstName = firstNameInput.value;
@@ -110,6 +100,7 @@ password2.addEventListener('input', ()=>{
     }
 })
 
+
 submitBtn.addEventListener('click', ()=>{
     checkFirstName();
     checkLastName();
@@ -147,3 +138,15 @@ function checkPassword(){
         
     }
 }
+
+
+inputs.forEach(function(input){
+    input.addEventListener('blur', ()=>{
+        if(input.validity.valid){
+            input.classList.add('input-valid')
+        }
+        else{
+            input.classList.remove('input-valid')
+        }
+    })
+})
