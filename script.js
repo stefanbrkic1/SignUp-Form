@@ -67,7 +67,7 @@ telInput.addEventListener('blur', () =>{
         
     }
     else{
-        if(isNaN(parseInt(telInput.value))){
+        if(isNaN(telInput.value)){
             telInput.setCustomValidity('Please enter a valid phone number')
         }
         else{
