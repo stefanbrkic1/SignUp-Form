@@ -180,7 +180,7 @@ label{
 }
 
 .password1-input::after{
-    content: "Password must be minumum 8 characters.";
+  content: "Password must be minumum 8 characters.";
   font-size: 11rem;
   color: var(--error-color);
   margin-top: 5px;
@@ -188,9 +188,25 @@ label{
 }
 
 .password2-input::after{
-    content: "Passwords do not match.";
+  content: "Passwords do not match.";
   font-size: 11rem;
   color: var(--error-color);
   margin-top: 5px;
   position: absolute;
 }
+
+.first-name-input::after{
+  content: "Enter valid name(Without 1,2,3,+,*,-...)";
+  font-size: 11rem;
+  color: var(--error-color);
+  margin-top: 5px;
+  position: absolute;
+}
+
+.last-name-input::after{
+    content: "Enter valid name(Without 1,2,3,+,*,-...)";
+    font-size: 11rem;
+    color: var(--error-color);
+    margin-top: 5px;
+    position: absolute;
+  }

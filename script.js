@@ -8,43 +8,51 @@ const inputs = document.querySelectorAll('input');
 const submitBtn = document.getElementById('submitBtn');
 const passwordMessage1 = document.getElementById('passwordMessage1');
 const passwordMessage2 = document.getElementById('passwordMessage2');
+const firstNameSpan = document.getElementById('firstNameValidity');
+const lastNameSpan = document.getElementById('lastNameValidity');
+
 
 passwordMessage1.classList.remove('password1-input');
 passwordMessage2.classList.remove('password2-input');
+firstNameSpan.classList.remove('first-name-input')
+lastNameSpan.classList.remove('last-name-input')
 
-firstNameInput.addEventListener('blur', ()=>{
-    if(firstName.value===""){
+inputs.forEach(function(input){
+    input.addEventListener('blur', ()=>{
+        if(input.validity.valid){
+            input.classList.add('input-valid')
+        }
+        else{
+            input.classList.remove('input-valid')
+        }
+    })
+})
 
-    }
-    else{
+firstNameInput.addEventListener('input', ()=>{
     let firstName = firstNameInput.value;
     let containsNumbers = /\d/.test(firstName);
     if(containsNumbers){
-        firstNameInput.setCustomValidity('Enter a valid name. Without characters("123...", "+-*/...")');
+        firstNameSpan.classList.add('first-name-input')
+        firstNameInput.classList.add('error')
     }
     else{
-        firstNameInput.setCustomValidity('');
-    }
-    firstNameInput.reportValidity();
+        firstNameSpan.classList.remove('first-name-input')
+        firstNameInput.classList.remove('error')
     }
 })
 
 
-lastNameInput.addEventListener('blur', ()=>{
-    if(lastName.value===""){
-
-    }
-    else{
+lastNameInput.addEventListener('input', ()=>{
         let lastName = lastNameInput.value;
         let containsNumbers = /\d/.test(lastName);
         if(containsNumbers){
-            lastNameInput.setCustomValidity('Enter a valid last name. Without characters("123...", "+-*/...")');
+            lastNameSpan.classList.add('last-name-input')
+            lastNameInput.classList.add('error')
         }
         else{
-            lastNameInput.setCustomValidity('');
+            lastNameSpan.classList.remove('last-name-input')
+            lastNameInput.classList.remove('error')
         }
-        lastNameInput.reportValidity();
-    }  
 })
 
 
@@ -102,13 +110,32 @@ password2.addEventListener('input', ()=>{
     }
 })
 
-inputs.forEach(function(input){
-    input.addEventListener('blur', ()=>{
-        if(input.validity.valid){
-            input.classList.add('input-valid')
-        }
-        else{
-            input.classList.remove('input-valid')
-        }
-    })
+submitBtn.addEventListener('click', ()=>{
+    checkFirstName();
+    checkLastName();
 })
+
+function checkFirstName(){
+    let firstName = firstNameInput.value;
+    let containsNumbers = /\d/.test(firstName);
+    if(containsNumbers){
+        firstNameInput.setCustomValidity('Please enter a valid name(Without 1,2,3,+,*,-...)')
+    }
+    else{
+        firstNameInput.setCustomValidity('')
+    }
+    firstNameInput.reportValidity();
+}
+
+function checkLastName(){
+    let lastName = lastNameInput.value;
+    let containsNumbers = /\d/.test(lastName);
+    if(containsNumbers){
+        lastNameInput.setCustomValidity('Please enter a valid last name(Without 1,2,3,+,*,-...)')
+    }
+    else{
+        lastNameInput.setCustomValidity('')
+    }
+    lastNameInput.reportValidity();
+}
+

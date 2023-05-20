@@ -44,10 +44,12 @@
                         <div class="input-flex">
                             <label for="firstName" class="label">FIRST NAME</label>
                             <input type="text" id="firstName" name="firstName" autocomplete="off" required>
+                            <span id="firstNameValidity" class="first-name-input"></span>
                         </div>
                         <div class="input-flex">
                             <label for="lastName" class="label">LAST NAME</label>
                             <input type="text" id="lastName" name="lastName" autocomplete="off" required>
+                            <span id="lastNameValidity" class="last-name-input"></span>
                         </div>
                     </div>
 
@@ -65,12 +67,12 @@
                     <div class="input-container">
                         <div class="input-flex">
                             <label for="password1" class="label">PASSWORD</label>
-                            <input type="password" id="password1" name="password1" autocomplete="off" required>
+                            <input type="password" id="password1" name="password1" minlength="8" autocomplete="off" required>
                             <span id="passwordMessage1" class="password1-input"></span>
                         </div>
                         <div class="input-flex">
                             <label for="password2" class="label">CONFIRM PASSWORD</label>
-                            <input type="password" id="password2" name="password2" autocomplete="off" required>
+                            <input type="password" id="password2" name="password2" minlength="8" autocomplete="off" required>
                             <span id="passwordMessage2" class="password2-input"></span>
                         </div>
                     </div>
