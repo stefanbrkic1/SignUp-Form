@@ -63,31 +63,31 @@ body{
 }
 
 .illustration{
-    width: 300px;
-    margin: 60px;
+    position: relative;
+    width: 400px;
 }
 
 .author-text{
     color: var(--text-color);
-    font-size: 12rem;
+    font-size: 14rem;
     margin: 20px;
 }
 
 .signup-text{
     color: var(--text-color);
-    font-size: 35rem;
+    font-size: 37rem;
     margin: 20px;
     font-weight: bold;
 }
 
 .textPara{
     color: var(--text-color);
-    font-size: 16rem;
+    font-size: 18rem;
 }
 
 .textPara2{
     color: var(--text-color);
-    font-size: 20rem;
+    font-size: 22rem;
     margin-top: 22px;
     font-weight: bold;
     margin-bottom: 20px;
@@ -100,7 +100,7 @@ body{
 
 .label{
     color: var(--text-color);
-    font-size: 13rem;
+    font-size: 15rem;
 }
 
 .input-container{
@@ -177,7 +177,7 @@ label{
 
 .password1-input::after{
   content: "Password must be minumum 8 characters.";
-  font-size: 12rem;
+  font-size: 13rem;
   color: var(--error-color);
   margin-top: 5px;
   position: absolute;
@@ -185,7 +185,7 @@ label{
 
 .password2-input::after{
   content: "Passwords do not match.";
-  font-size: 12rem;
+  font-size: 13rem;
   color: var(--error-color);
   margin-top: 5px;
   position: absolute;
@@ -193,7 +193,7 @@ label{
 
 .first-name-input::after{
   content: "Enter valid name(Without 1,2,3,+,*,-...)";
-  font-size: 12rem;
+  font-size: 13rem;
   color: var(--error-color);
   margin-top: 5px;
   position: absolute;
@@ -201,7 +201,7 @@ label{
 
 .last-name-input::after{
     content: "Enter valid name(Without 1,2,3,+,*,-...)";
-    font-size: 12rem;
+    font-size: 13rem;
     color: var(--error-color);
     margin-top: 5px;
     position: absolute;
