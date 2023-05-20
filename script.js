@@ -139,3 +139,11 @@ function checkLastName(){
     lastNameInput.reportValidity();
 }
 
+function checkPassword(){
+    if(password1.value!==password2.value){
+        password1.setCustomValidity('Please enter a valid last name(Without 1,2,3,+,*,-...)')
+    }
+    else{
+        
+    }
+}
