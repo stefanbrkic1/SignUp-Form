@@ -126,6 +126,7 @@ body {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     font-size: 18rem;
     margin-top: 50px;
+    font-weight: bold;
 }
 
 .btn:hover {
@@ -149,9 +150,11 @@ input {
     appearance: none;
     border: none;
     border-bottom: solid 4px var(--text-color);
-    height: 25px;
+    height: 30px;
+    width: 300px;
     background-color: transparent !important;
     color: aliceblue;
+    outline: none;
 }
 
 input:focus {
