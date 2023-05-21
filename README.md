@@ -1,5 +1,5 @@
 # SignUp-Form
-A user-friendly signup form for effortless registration. Includes essential fields, CSS styles, and JavaScript functionality. Click here[Link](https://stefanbrkic1.github.io/SignUp-Form/)
+A user-friendly signup form for effortless registration. Includes essential fields, CSS styles, and JavaScript functionality. Click here [Link](https://stefanbrkic1.github.io/SignUp-Form/)
 
 <!-- ABOUT THE PROJECT -->
 ## Preview
