@@ -29,6 +29,7 @@ body{
     height: 100vh;
     width: 100vw;
     display: flex;
+    flex-direction: column;
     background-image: url(img/background.png);
     background-size: cover;
 }
@@ -57,4 +58,55 @@ a:hover{
 
 .logo{
     width: 30px;
+}
+
+.image{
+    display: none;
+}
+
+@media screen and (max-width:768px){
+    .container{
+        width: 100vw;
+        height: 100vh;
+    }
+    .headings{
+        margin: 30px;
+        font-size: 16rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .image{
+        width: 300px;
+    }
+    .image-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 90px;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1024){
+    .container{
+        width: 100vw;
+        height: 100vh;
+    }
+    .headings{
+        margin: 30px;
+        font-size: 16rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .image{
+        display: block;
+        width: 300px;
+    }
+    .image-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 90px;
+    }
 }

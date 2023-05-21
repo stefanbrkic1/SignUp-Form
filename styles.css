@@ -63,7 +63,6 @@ body{
 }
 
 .illustration{
-    position: relative;
     width: 400px;
 }
 
@@ -126,6 +125,7 @@ body{
     cursor: pointer;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     font-size: 18rem;
+    margin-top: 50px;
 }
 
 .btn:hover{
@@ -206,3 +206,69 @@ label{
     margin-top: 5px;
     position: absolute;
   }
+
+  @media screen and (max-width: 768px) {
+    .container{
+        flex-direction: column;
+    }
+    .illustration{
+        width: 300px;
+    }
+    .input-container{
+        display: block;
+    }
+    .container{
+        height: 100%;
+    }
+    .textPara{
+        display: none;
+    }
+    .textPara2{
+        display: none;
+    }
+    .label{
+        margin-top: 30px;
+    }
+    .btn-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .btn{
+        margin-top: 80px;
+    }
+  }
+  
+  @media screen and (min-width: 768px) and (max-width: 1024px) {
+    .textPara{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .input-container{
+        display: block;
+    }
+    .label{
+        margin-top: 30px;
+    }
+    .btn-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .btn{
+        margin-top: 80px;
+    }
+    .container{
+        flex-direction: column;
+        height: 100%;
+    }
+    .illustration{
+        width: 300px;
+    }
+  }
+  
+  
+  
+  
