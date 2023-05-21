@@ -25,5 +25,15 @@ A user-friendly signup form for effortless registration. Includes essential fiel
 - ![Google](https://img.shields.io/badge/google-4285F4?style=for-the-badge&logo=google&logoColor=white)   
 - ![Shell Script](https://img.shields.io/badge/Terminal-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white)  
 - ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)  
+- ![Linux](https://img.shields.io/badge/Linux-#FCC624?style=for-the-badge&logo=Linux)  
+
+<br>
+
+## Features
+
+- Built with **modern Javascript** practices
+- It can **evaluate the form** effectively with conditions
+- Comes with **optimized UI** & **UX**
+- **Responsive** for both **Desktop** & **Mobile**
 
 <br>
