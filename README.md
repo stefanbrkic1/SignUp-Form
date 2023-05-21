@@ -5,6 +5,7 @@ A user-friendly signup form for effortless registration. Includes essential fiel
 ## Preview
 
 ![SignUpPreview](img/SignUp.png)
+![SignUpPreviewDevices](img/Devices.png)
 
 > **Note**  
 >> Application is still under Development
@@ -24,6 +25,5 @@ A user-friendly signup form for effortless registration. Includes essential fiel
 - ![Google](https://img.shields.io/badge/google-4285F4?style=for-the-badge&logo=google&logoColor=white)   
 - ![Shell Script](https://img.shields.io/badge/Terminal-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white)  
 - ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)  
-- ![Arch](https://img.shields.io/badge/Arch%20Linux-1793D1?logo=arch-linux&logoColor=fff&style=for-the-badge)
 
 <br>
