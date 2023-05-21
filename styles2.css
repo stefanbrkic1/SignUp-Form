@@ -1,31 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
 
-:root{
-    --background-color:#313131;
-    --text-color:white;
-    --primary-color:#2eaa34;
-    --secondary-color:#45565e;
-    --accent-color:#1d7221;
-    --error-color:#ff3b55;
+:root {
+    --background-color: #313131;
+    --text-color: white;
+    --primary-color: #2eaa34;
+    --secondary-color: #45565e;
+    --accent-color: #1d7221;
+    --error-color: #ff3b55;
 }
 
-html{
+html {
     font-size: 6.25%;
     color: var(--text-color);
 }
 
-body{
+body {
     font-size: 16rem;
 }
 
-.container{
+.container {
     height: 100vh;
     width: 100vw;
     display: flex;
@@ -34,12 +34,12 @@ body{
     background-size: cover;
 }
 
-.headings{
+.headings {
     margin: 80px;
     font-size: 20rem;
 }
 
-.text{
+.text {
     font-size: 18rem;
     margin-top: 30px;
     display: flex;
@@ -47,25 +47,26 @@ body{
     gap: 7px;
 }
 
-a{
+a {
     text-decoration: none;
     color: var(--primary-color);
 }
 
-a:hover{
+a:hover {
     color: var(--text-color);
 }
 
-.logo{
+.logo {
     width: 30px;
 }
 
-@media screen and (max-width:768px){
-    .container{
+@media screen and (max-width:768px) {
+    .container {
         width: 100vw;
         height: 100vh;
     }
-    .headings{
+
+    .headings {
         margin: 30px;
         font-size: 16rem;
         display: flex;
@@ -74,12 +75,13 @@ a:hover{
     }
 }
 
-@media screen and (min-width:768px) and (max-width:1024){
-    .container{
+@media screen and (min-width:768px) and (max-width:1024) {
+    .container {
         width: 100vw;
         height: 100vh;
     }
-    .headings{
+
+    .headings {
         margin: 30px;
         font-size: 16rem;
         display: flex;
