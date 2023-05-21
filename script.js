@@ -111,6 +111,7 @@ function checkFirstName(){
     let containsNumbers = /\d/.test(firstName);
     if(containsNumbers){
         firstNameInput.setCustomValidity('Please enter a valid name(Without 1,2,3,+,*,-...)')
+        firstNameInput.value='';
     }
     else{
         firstNameInput.setCustomValidity('')
@@ -123,6 +124,7 @@ function checkLastName(){
     let containsNumbers = /\d/.test(lastName);
     if(containsNumbers){
         lastNameInput.setCustomValidity('Please enter a valid last name(Without 1,2,3,+,*,-...)')
+        lastNameInput.value='';
     }
     else{
         lastNameInput.setCustomValidity('')
