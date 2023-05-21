@@ -27,6 +27,7 @@ A user-friendly signup form for effortless registration. Includes essential fiel
 - ![Linux](https://img.shields.io/badge/linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)  
 - ![Shell Script](https://img.shields.io/badge/Terminal-241F31?style=for-the-badge&logo=gnu-bash&logoColor=white) 
 - ![Figma](https://img.shields.io/badge/figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)    
+- ![Photoshop](https://img.shields.io/badge/adobephotoshop-31A8FF?style=for-the-badge&logo=adobephotoshop&logoColor=white)   
 
 <br>
 
