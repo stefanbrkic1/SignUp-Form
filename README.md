@@ -42,3 +42,16 @@ A user-friendly signup form for effortless registration. Includes essential fiel
 - **Responsive** for both **Desktop** & **Mobile**
 
 <br>
+
+<!-- ACKNOWLEDGMENTS -->
+## Acknowledgments
+
+* Inspiration by [The Odin Project](https://www.theodinproject.com/)
+* Illustrative vectors was provided by [Freepik](https://www.freepik.com/)
+
+<br>
+
+## Author
+
+👤 **stefanbrkic1**
+* GitHub: [stefanbrkic1](https://github.com/stefanbrkic1)
